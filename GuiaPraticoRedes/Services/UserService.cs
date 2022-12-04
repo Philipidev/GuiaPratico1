@@ -16,7 +16,7 @@ namespace GuiaPraticoRedes.Services
             };
             Users.Add(user);
 
-            EmailService.EnviarEmail(user.Email, "Bem vindo", "Seja bem vindo ao sistema");
+            //EmailService.EnviarEmail(user.Email, "Bem vindo", "Seja bem vindo ao sistema");
 
             return user;
         }
